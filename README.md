@@ -21,8 +21,7 @@ Aplicativo web para controlar a agenda de um consultório médico.
 * Exclusão de um agendamento
 * Listagem de todos os agendamentos
 
-
-* *Tecnologias Usadas:
+**TECNOLOGIAS USADAS:
 
 * Apache (XAMPP)
 * PHP- MariaDB
