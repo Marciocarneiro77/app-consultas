@@ -33,7 +33,7 @@ while($medico = mysqli_fetch_assoc($listaDeMedicos)){
     echo "<td>{$medico['crm']}</td>";
     echo "<td>{$medico['especialidade']}</td>";
     echo "<td><a href='medicos-formulario-alterar.php?id_medico={$medico['id']}'>Alterar</a> |";
-    echo "<a class='btn btn-danger'  href='medicos-excluir.php?id_medico={$medico['id']}'><i class='bi bi-x-lg'></i></a></td>";
+    echo "<a href='medicos-excluir.php?id_medico={$medico['id']}' class='btn btn-danger'>Excluir</a></td>";
     echo "</tr>";
         
 
@@ -41,4 +41,4 @@ while($medico = mysqli_fetch_assoc($listaDeMedicos)){
 ?>
 <tbody>
 </table>
-<?php include"../includes/rodape.php";?>
+<?php include "../includes/rodape.php";?>
