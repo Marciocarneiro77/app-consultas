@@ -20,3 +20,14 @@ Aplicativo web para controlar a agenda de um consultório médico.
 * Alteração em uma agendamento
 * Exclusão de um agendamento
 * Listagem de todos os agendamentos
+
+
+* *Tecnologias Usadas:
+
+* Apache (XAMPP)
+* PHP- MariaDB
+* HTML
+* CSS
+* Javascript
+* jQuery
+* Bootstrap
