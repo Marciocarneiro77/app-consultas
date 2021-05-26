@@ -18,7 +18,7 @@ $resultado = mysqli_query($conexao , $sqlInserir);
 
 if($resultado){
     echo "Cadastro realizado com sucesso.<br>";
-    echo "<a href='pacientes-listar.php'>Voltar</a>";
+    echo "<a href='agenda-listar.php'>Voltar</a>";
 
 }else{
     echo "Algo deu errado";

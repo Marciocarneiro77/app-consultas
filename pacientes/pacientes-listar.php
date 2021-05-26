@@ -28,8 +28,8 @@ while($paciente = mysqli_fetch_assoc($listaDePacientes)){
    $dataBrasil = date('d/m/y', strtotime($paciente['data_nascimento']));
     echo "<td> {$dataBrasil}</td>";
    echo"<td>{$paciente['convenio']}</td>";
-    echo"<td><a href='pacientes-formulario-alterar.php?id={$paciente['id']}'>Alterar</a> | ";
-    echo "<a href='pacientes-excluir.php? id={$paciente['id']}'>Excluir</a><td>";
+    echo"<td><a href='pacientes-formulario-alterar.php?id_paciente={$paciente['id']}'>Alterar</a> | ";
+    echo "<a href='pacientes-excluir.php? id_paciente={$paciente['id']}'>Excluir</a><td>";
     echo "</tr>";
 }
 ?>

@@ -35,7 +35,8 @@ from tb_agenda
 while($agenda = mysqli_fetch_assoc($listaDeAgenda)){
     echo "<tr>";
     echo "<td>{$agenda['id']}</td>";
-    echo "<td>{$agenda['data']}</td>";
+    $dataBrasil = date('d/m/y' , strtotime($agenda['data']));
+    echo "<td>{$dataBrasil}</td>";
     echo "<td>{$agenda['hora']}</td>";
     echo "<td>{$agenda['nome_medico']}</td>";
     echo "<td>{$agenda['sala']}</td>";

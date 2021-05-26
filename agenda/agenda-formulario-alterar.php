@@ -25,7 +25,7 @@ $id_paciente = $agenda['id_paciente'];
 <p>
 
 <label>Data:</label>
-<input type="date" name="data value =<?php echo $data ?>">
+<input type="date" name="data" value ="<?php echo $data ?>">
 </p>
 <p>
 

@@ -19,6 +19,9 @@ if(isset($_GET['mensagem'])){
     if($_GET['mensagem'] =='errado'){
         echo " usuário ou senha inválidos";
     }
+    else if ($_GET['mensagem'] =='login'){
+        
+    }
 }
 ?>
 </form>

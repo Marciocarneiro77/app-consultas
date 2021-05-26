@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $usuarioSistema = $_POST['usuario'];
 $senhaSistema =$_POST ['senha'];
@@ -13,6 +14,7 @@ $resultado = mysqli_query($conexao , $sqlBusca);
 
 
 if(mysqli_num_rows($resultado) > 0){
+    $_SESSION["logado"]="sim";
 
     header ('Location: agenda/agenda-listar.php');
 
